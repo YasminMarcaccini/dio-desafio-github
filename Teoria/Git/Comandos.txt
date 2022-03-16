@@ -1,0 +1,50 @@
+*Git
+
+dir: lista os diretórios
+
+cd: change directory, muda de pasta
+cd . . : volta 1 pasta acima
+
+cls: clear screen, limpa a tela
+
+para autocompletar um nome no GIT, usar a tecla TAB
+
+mkdir seguido pelo nome da pasta: make directory, criar uma pasta
+
+del seguido do nome da pasta: deleta OS ARQUIVOS presentes na pasta
+
+rmdir seguido do nome da pasta: remove directory, deleta a pasta
+
+cat seguido do nome do arquivo: mostra o conteúdo dele
+
+pwd: mostra o caminho completo do diretorio
+
+git commit -m “com a sua mensagem entre aspas”
+
+git init [gera um repositório dentro do git]
+
+git status [estados de todos os arquivos]
+
+mv nomedoseuarquivopontonomedaextensao ./nome da pasta de destino/
+
+git add nomedoarquivooupastapodendolistarváriosseparadosporespaço [torna os arquivos e pastas listados “vigiáveis” pelo git]
+
+para deixar de vigiar o arquivo ou pasta: git restore –staged nomedoarquivo
+
+criar arquivo na pasta: echo > nomedoarquivopontoextensao
+
+git add *  OU git add . : com o asterisco ou ponto final, o git seleciona automaticamente todos os arquivos não-staged
+
+git config --global --unset user.name
+
+git config --list
+git config --global user.name "entre aspas"
+
+git remote add origin endereço https [origin é um apelido dado para o endereço, e é usado origin como convenção]
+
+git clone linkdachavesshdogithub [copiar projeto]
+
+Flags:
+/S
+/Q
+-a [arquivos ocultos]
